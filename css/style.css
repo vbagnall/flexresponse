@@ -1,0 +1,59 @@
+body {
+	font-family: calibri;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	flex-basis: 60%;	
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	display: flex;
+	padding: 10px;
+	margin: auto;
+}
+
+.firstbox {
+	max-width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.box {
+	background: white;
+	flex: 0.7;
+	display: flex;
+	flex-direction: column;
+}
+
+.box1 {
+	background-color: orange;
+	flex: 1;
+	margin-bottom: 15px;
+}
+
+.box2 {
+	background-color: yellow;
+	flex: 1;
+	margin-top: 15px;
+}
+
+.box3 {
+	background-color: red;
+	padding: 20px;
+	flex: 1;
+	margin-left: 30px;
+}
+
+@media only screen and (min-width: 800px); {
+	.firstbox {
+		display: flex;
+		justify-content: space-between;
+	}
+}
